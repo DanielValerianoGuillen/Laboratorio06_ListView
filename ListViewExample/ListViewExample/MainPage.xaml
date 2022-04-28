@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewExample.MainPage">
+
+    <StackLayout>
+        <StackLayout>
+            <Button x:Name="Item14" Text="ListviewSource" />
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="Item15" Text="ListviewGroup" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <StackLayout>
+                <Button x:Name="Item12" Text="ListViewDemo" />
+                <Button x:Name="Item13" Text="ListviewCode" />
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
